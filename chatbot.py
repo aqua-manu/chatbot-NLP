@@ -40,7 +40,7 @@ import csv
 import aiml
 kern = aiml.Kernel()
 kern.setTextEncoding(None)
-kern.bootstrap(learnFiles="mybot-basic.xml")
+kern.bootstrap(learnFiles="chatbot.xml")
 #########################################################
 #Knowledge Base
 kb = []
