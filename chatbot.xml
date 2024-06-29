@@ -1,0 +1,172 @@
+<aiml>
+    <category>
+        <pattern>DEFINE *</pattern>
+        <template>#10$<star/></template>
+    </category>
+    <category>
+        <pattern>SHOW CARDS IN * ARCHETYPE</pattern>
+        <template>#11$<star/></template>
+    </category>
+    <category>
+        <pattern>SHOW ME THE CARD *</pattern>
+        <template>#12$<star/></template>
+    </category>
+    <category>
+        <pattern>WHAT CARD TYPE IS THIS</pattern>
+        <template>#33$</template>
+    </category>
+    <category>
+        <pattern>I KNOW THAT *</pattern>
+        <template>#31$ <star/></template>
+    </category>
+    <category>
+        <pattern>CHECK THAT *</pattern>
+        <template>#32$ <star/></template>
+    </category>
+    
+    <category>
+        <pattern>I KNOW THAT ATTRIBUTE *</pattern>
+        <template>#34$ <star/></template>
+    </category>
+    
+    <category>
+        <pattern>CHECK THAT ATTRIBUTE *</pattern>
+        <template>#35$ <star/></template>
+    </category>
+    <category>
+        <pattern>HELLO</pattern>
+        <template>Hello! How are you?</template>
+    </category>
+    <category>
+        <pattern>HELLO *</pattern>
+        <template>HELLO HI</template>
+    </category>
+    <category>
+        <pattern>HELLO HI</pattern>
+        <template>HELLO HI</template>
+    </category>
+    <category>
+        <pattern>HELLO HOW ARE YOU</pattern>
+        <template>I'm functioning within normal parameters, thanks for asking.</template>
+    </category>
+    <category>
+        <pattern>I AM FINE</pattern>
+        <template>That's good to know. What would you like to discuss about?</template>
+    </category>
+    <category>
+        <pattern>BYE</pattern>
+        <template>#0$Bye! Nice talking to you. You take care now.</template>
+    </category>
+    <category>
+        <pattern>GOODBYE</pattern>
+        <template>BYE</template>
+    </category>
+    <category>
+        <pattern>EXIT</pattern>
+        <template>BYE</template>
+    </category>
+    <category>
+        <pattern>BYE THANKS</pattern>
+        <template>You are welcome.</template>
+    </category>
+    <category>
+        <pattern>THANK YOU</pattern>
+        <template>THANKS</template>
+    </category>
+    <category>
+        <pattern>THANKS</pattern>
+        <template>CHEERS</template>
+    </category>
+    <category>
+        <pattern>CHEERS</pattern>
+        <template>Sure mate.</template>
+    </category>
+    <category>
+        <pattern>CHEERS *</pattern>
+        <template>Sure mate.</template>
+    </category>
+    <category>
+        <pattern>WHAT IS THE WEATHER LIKE IN *</pattern>
+        <template>#2$</template>
+    </category>
+    <category>
+        <pattern>HOW IS THE WEATHER IN *</pattern>
+        <template>#2$</template>
+    </category>
+     <category>
+         <pattern>WHAT IS A MONSTER CARD</pattern>
+         <template>A Monster Card is a type of card used in Yu-Gi-Oh! that represents creatures, beasts, and other entities that duelists use to battle their opponents.</template>
+     </category>
+     <category>
+         <pattern>WHAT IS A SPELL CARD</pattern>
+         <template>A Spell Card is a type of card used in Yu-Gi-Oh! that represents magical spells, powers, and enchantments that duelists can cast during a duel to gain advantages or disrupt their opponent's strategies.</template>
+     </category>
+
+     <category>
+         <pattern>WHAT IS A TRAP CARD</pattern>
+         <template>A Trap Card is a type of card used in Yu-Gi-Oh! that represents various traps, tricks, and surprises that duelists can set to hinder their opponent's actions or protect themselves.</template>
+     </category>
+     
+     <category>
+         <pattern>HOW MANY TYPES OF MONSTER CARDS ARE THERE</pattern>
+         <template>There are three main types of Monster Cards in Yu-Gi-Oh!: Effect Monsters, Fusion Monsters, and Ritual Monsters.</template>
+     </category>
+     
+      <category>
+          <pattern>HOW MANY TYPES OF TRAP CARDS ARE THERE</pattern>
+          <template>There are two main types of Trap Cards in Yu-Gi-Oh!: Normal Trap Cards and Continuous Trap Cards.</template>
+      </category>
+      <category>
+          <pattern>HOW MANY TYPES OF SPELL CARDS ARE THERE</pattern>
+          <template>There are three main types of Spell Cards in Yu-Gi-Oh!: Normal Spell Cards, Quick-Play Spell Cards, and Continuous Spell Cards.</template>
+      </category>
+      <category>
+          <pattern>HOW TO SUMMON A MONSTER</pattern>
+          <template>To summon a monster in Yu-Gi-Oh!, you typically need to place the monster card in face-up Attack or Defense Position on your side of the field during your Main Phase.</template>
+      </category>
+     
+      <category>
+        <pattern>WHAT IS A MONSTER EFFECT</pattern>
+        <template>A Monster Effect refers to special abilities or powers that certain Monster Cards possess, which can be activated during specific game situations to gain advantages or disrupt the opponent's strategies.</template>
+      </category>
+     
+    <category>
+        <pattern>HOW TO SPECIAL SUMMON A MONSTER</pattern>
+        <template>To Special Summon a monster in Yu-Gi-Oh!, you typically need to fulfill certain conditions or meet specific card requirements stated on the card itself. Special Summoning allows you to bring a monster onto the field without performing a regular summoning method.</template>
+    </category>
+
+    <category>
+        <pattern>WHAT IS A DECK</pattern>
+        <template>A Deck in Yu-Gi-Oh! is a collection of cards that a duelist uses to play the game. It consists of Monster Cards, Spell Cards, and Trap Cards that are shuffled together and drawn from during the duel.</template>
+    </category>
+
+    <category>
+        <pattern>HOW TO MAKE A DECK</pattern>
+        <template>To make a deck in Yu-Gi-Oh!, you must first decide on a theme or strategy for your deck, then choose the appropriate cards that support that theme. A typical deck consists of 40 to 60 cards, with a balance of Monster, Spell, and Trap Cards.</template>
+    </category>
+
+    <category>
+        <pattern>HOW TO PLAY YUGIOH</pattern>
+        <template>To play Yu-Gi-Oh!, each player starts with a deck of cards and takes turns drawing cards, summoning monsters, casting spells, and setting traps to reduce their opponent's life points to zero.</template>
+    </category>
+
+    <category>
+        <pattern>WHAT ARE LIFEPOINTS</pattern>
+        <template>Life Points (LP) represent a player's health or vitality in Yu-Gi-Oh!. Each player starts the duel with a set number of Life Points, and the main objective of the game is to reduce the opponent's Life Points to zero to win the duel.</template>
+    </category>
+
+    <category>
+        <pattern>HOW TO WIN IN YUGIOH</pattern>
+        <template>To win in Yu-Gi-Oh!, you must reduce your opponent's Life Points to zero before they do the same to you. This can be achieved through various card effects, battle strategies, and skillful gameplay.</template>
+    </category>
+
+    <category>
+        <pattern>WHAT ARE PHASES IN YUGIOH</pattern>
+        <template>Phases in Yu-Gi-Oh! refer to different stages of the duel where players can perform specific actions. The main phases include the Draw Phase, Standby Phase, Main Phase 1, Battle Phase, Main Phase 2, and End Phase.</template>
+    </category>
+    
+    <category>
+        <pattern>HOW TO PLAY A TRAP</pattern>
+        <template>To use a Trap Card in Yu-Gi-Oh!, you must first set it face-down in the Spell and Trap Zone during your turn. It can then be activated in response to a specific game event.</template>
+    </category>
+</aiml>
